@@ -307,6 +307,8 @@
     padding: 0 30px;
     border: none;
     display: block;
+    box-shadow: 3px 4px 15px #414135;
+    border-radius: 3px;
     transition: .3s ease-in;
     -webkit-transition: .3s ease-in;
     -moz-transition: .3s ease-in;
@@ -338,7 +340,3 @@
 
 
 /* =====footer===== */
-
-footer {
-    height: 100vh;
-}
