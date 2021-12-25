@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* =====navbar===== */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 45px;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 110px;
+}
+
+.navbar__logo .navbar__logo-title {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 21px;
+    color: rgba(26, 26, 26, 0.71);
+    margin-right: 15px;
+}
+
+.navbar__links .navbar__link {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2A2A2A;
+    padding: 5px 10px;
+    margin-right: 20px;
+    transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -ms-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+}
+
+.navbar__links .navbar__link:hover {
+    color: #fff;
+    background: #111;
+    /* border-bottom: 2px solid #111; */
+    box-shadow: 3px 4px 15px #ccc;
+    border-radius: 10px;
+}
+
+.navbar__btn-row {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navbar__btn-row .navbar__btn {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #2A2A2A;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-right: 1px solid #2A2A2A;
+    transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -ms-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+}
+
+.navbar__btn-row .navbar__btn:hover {
+    color: #fff;
+    background: #111;
+    /*border-bottom: 2px solid #111;
+    */
+    box-shadow: 3px 4px 15px #ccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/* =====analog===== */
+
+.analog {
+    background-image: url(images/analog.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.analog__content {
+    /* padding: 0 0 30px 140px; */
+    margin-left: 12%;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.analog__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.analog__content .analog__link {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
