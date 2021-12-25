@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 45px;
+    padding: 10px 45px;
 }
 
 .navbar__links {
@@ -110,7 +110,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin-top: 70px;
     display: flex;
     align-items: flex-end;
@@ -193,6 +193,20 @@
     margin-bottom: 40px;
 }
 
+.products__card-img {
+    opacity: .5;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.products__card:hover .products__card-img {
+    opacity: 2;
+    box-shadow: 3px 4px 15px #ccc;
+}
+
 .products__card-title {
     font-weight: normal;
     font-size: 15px;
@@ -252,11 +266,12 @@
 
 .analog {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-image: url(images/analog.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 30px 70px;
+    margin-top: 140px;
 }
 
 .analog__number {
@@ -286,7 +301,7 @@
 
 .analog__content {
     width: 30%;
-    margin-top: 50px;
+    margin-top: 95px;
 }
 
 .analog__title {
@@ -336,6 +351,58 @@
 .analog__link:hover {
     color: rgb(43, 199, 247);
     border-bottom: 1px solid rgb(43, 199, 247);
+}
+
+
+/* =====refillable===== */
+
+.refillable {
+    padding: 120px 135px;
+    background: rgba(49, 47, 46, 1);
+}
+
+.refillable__card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+}
+
+.refillable__content {
+    width: 30%;
+    padding: 0 65px;
+}
+
+.refillable__title {
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+    color: #1A1A1A;
+}
+
+.refillable__text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1A1A1A;
+    margin: 20px 0 25px 0;
+}
+
+.refillable__link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1A1A1A;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.refillable__img-card {
+    width: 70%;
+}
+
+.refillable__img {
+    width: 100%;
+    object-fit: contain;
 }
 
 
