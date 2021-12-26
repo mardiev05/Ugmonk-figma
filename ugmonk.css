@@ -475,9 +475,40 @@ img.for__img:hover {
 
 /* =====story===== */
 
-.story__content {
+.story {
     height: 600px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/story.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.story__content {
+    color: #fff;
+    text-align: center;
+    width: 55%;
+}
+
+.story__title {
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 54px;
+}
+
+.story__link {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.story__link:hover {
+    color: rgb(43, 199, 247);
+    border-bottom: 2px solid rgb(43, 199, 247);
 }
 
 
