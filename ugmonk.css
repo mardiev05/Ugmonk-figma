@@ -577,3 +577,83 @@ img.for__img:hover {
 
 
 /* =====footer===== */
+
+footer {
+    padding: 75px 120px;
+}
+
+.footer__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__links-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    margin-bottom: 14px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1A1A1A;
+}
+
+.footer__link:hover {
+    border-bottom: 1px solid #1a1a1a;
+    color: #ccc;
+}
+
+.footer__text {
+    display: flex;
+    width: 75%;
+}
+
+.footer__text-card {
+    width: 100%;
+}
+
+.footer__2021 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    color: #1A1A1A;
+}
+
+.footer__all {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: right;
+    color: #1A1A1A;
+}
+
+.footer__img {
+    margin-left: 20px;
+    width: 25%;
+}
+
+.footer__img img {
+    width: 100%;
+}
+
+.footer__icons {
+    margin-right: 24%;
+    text-align: end;
+    margin-top: 20px;
+}
+
+.footer__icons i {
+    font-size: 25px;
+    margin-left: 15px;
+}
