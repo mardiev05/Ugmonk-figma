@@ -38,7 +38,7 @@
     margin-right: 110px;
 }
 
-.navbar__logo .navbar__logo-title {
+.navbar__logo-title {
     font-weight: normal;
     font-size: 36px;
     line-height: 21px;
@@ -46,7 +46,7 @@
     margin-right: 15px;
 }
 
-.navbar__links .navbar__link {
+.navbar__link {
     font-weight: normal;
     font-size: 17px;
     line-height: 20px;
@@ -100,6 +100,14 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.header__bar {
+    display: none;
+}
+
+i.fas.fa-bars.bar {
+    color: #111;
 }
 
 
@@ -527,10 +535,10 @@ img.for__img:hover {
 .form {
     width: 100%;
     height: 400px;
-    background: rgba(206, 211, 202, 1);
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(96 106 85 / 81%);
 }
 
 .content {
@@ -580,6 +588,7 @@ img.for__img:hover {
 
 footer {
     padding: 75px 120px;
+    background: rgba(206, 211, 202, 1);
 }
 
 .footer__row {
@@ -660,7 +669,7 @@ footer {
     margin-right: 10px;
     background: #fff;
     border-radius: 50%;
-    box-shadow: inset 10px 10px 10px rgb(0 0 0 / 5%), 15px 25px 10px rgb(0 0 0 / 5%), 15px 20px 20px rgb(0 0 0 / 50%), inset -10px -10px 15px rgb(255 255 255 / 90%);
+    box-shadow: inset 10px 10px 10px rgb(0 0 0 / 5%), 15px 25px 10px rgb(0 0 0 / 5%), 15px 20px 20px rgb(0 0 0 / 5%), inset -10px -10px 15px rgb(255 255 255 / 90%);
 }
 
 .footer__icons i {
@@ -681,4 +690,118 @@ i.fab.fa-twitter {
 
 i.fab.fa-facebook-square {
     color: #077bc1;
+}
+
+
+/* ==========================================================================media query======================================================================================== */
+
+@media screen and (max-width: 1050px) {
+    .navbar {
+        padding: 10px 40px;
+    }
+    .navbar__logo {
+        margin-right: 50px;
+    }
+    .navbar__logo-title {
+        font-size: 29px;
+        line-height: 17px;
+        margin-right: 10px;
+    }
+    .navbar__logo-img {
+        width: 20px;
+    }
+    .navbar__links .navbar__link {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 5px 8px;
+        margin-right: 20px;
+    }
+    .navbar__btn-row .navbar__btn {
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 10px;
+        padding: 5px 10px;
+    }
+}
+
+
+/* ===================================================== */
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+    .navbar__logo {
+        margin-right: 30px;
+    }
+    .navbar__logo-title {
+        font-size: 30px;
+        line-height: 21px;
+        margin-right: 15px;
+    }
+    .navbar__logo-img {
+        width: 18px;
+    }
+    .navbar__link {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 5px 6px;
+        margin-right: 10px;
+    }
+    .navbar__btn {
+        font-size: 13px;
+        line-height: 14px;
+        margin-right: 8px;
+        padding: 5px 8px;
+    }
+}
+
+
+/* =========================================================================== */
+
+@media screen and (max-width: 750px) {
+    .navbar__link {
+        display: none;
+    }
+    .navbar__btn-row {
+        justify-content: center;
+    }
+    .navbar__btn {
+        font-size: 16px;
+        line-height: 14px;
+        margin-right: 8px;
+        padding: 5px 8px;
+        border: none;
+    }
+    .navbar__btn-row .navbar__btn {
+        border: none;
+    }
+    .header__bar {
+        display: block;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+}
+
+
+/* =========================================================================== */
+
+@media screen and (max-width: 600px) {
+    .navbar__logo-title {
+        font-size: 33px;
+        line-height: 21px;
+        margin-right: 15px;
+    }
+    .navbar__logo-img {
+        width: 22px;
+    }
+    .navbar__btn-row {
+        display: none;
+    }
+    .header__bar {
+        display: flex;
+        flex: 1;
+        justify-content: end;
+        font-size: 30px;
+    }
 }
