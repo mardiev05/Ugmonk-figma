@@ -219,6 +219,7 @@ i.fas.fa-bars.bar {
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
+    width: 272px;
     margin: 10px 0 5px 0;
     color: #1A1A1A;
 }
@@ -722,6 +723,15 @@ i.fab.fa-facebook-square {
         margin-right: 10px;
         padding: 5px 10px;
     }
+    /* =====shop===== */
+    .shop {
+        height: 560px;
+        margin-top: 30px;
+    }
+    /* =====products===== */
+    .products__links {
+        width: 70%;
+    }
 }
 
 
@@ -742,17 +752,42 @@ i.fab.fa-facebook-square {
     .navbar__logo-img {
         width: 18px;
     }
-    .navbar__link {
+    .navbar__links .navbar__link {
         font-size: 14px;
         line-height: 17px;
         padding: 5px 6px;
         margin-right: 10px;
     }
-    .navbar__btn {
+    .navbar__btn-row .navbar__btn {
         font-size: 13px;
         line-height: 14px;
         margin-right: 8px;
         padding: 5px 8px;
+    }
+    /* =====shop===== */
+    .shop {
+        height: 500px;
+        margin-top: 20px;
+    }
+    .shop__text {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    /* =====products===== */
+    .container {
+        padding: 30px 20px;
+    }
+    .products__links {
+        width: 80%;
+    }
+    .products__row {
+        margin-top: 45px;
+        justify-content: space-around;
+    }
+    .products__btn {
+        font-size: 17px;
+        padding: 15px 50px;
+        margin-top: 60px;
     }
 }
 
@@ -781,6 +816,38 @@ i.fab.fa-facebook-square {
         font-size: 30px;
         margin-right: 10px;
     }
+    /* =====shop===== */
+    .shop {
+        height: 430px;
+        margin-top: 10px;
+    }
+    .shop__content {
+        margin-left: 10%;
+        margin-bottom: 35px;
+    }
+    .shop__content .shop__link {
+        font-size: 15px;
+        border-bottom: 1px solid #fff;
+    }
+    /* =====products===== */
+    .container {
+        padding: 30px 5px;
+    }
+    .products__links {
+        width: 100%;
+    }
+    .products__row {
+        margin-top: 40px;
+    }
+    .products__card {
+        max-width: 300px;
+        margin-right: 15px;
+    }
+    .products__btn {
+        font-size: 16px;
+        padding: 14px 50px;
+        margin-top: 40px;
+    }
 }
 
 
@@ -803,5 +870,23 @@ i.fab.fa-facebook-square {
         flex: 1;
         justify-content: end;
         font-size: 30px;
+    }
+    /* =====shop===== */
+    .shop {
+        height: 380px;
+        margin-top: 10px;
+    }
+    .shop__content {
+        margin-left: 10%;
+        margin-bottom: 27px;
+        width: 42%;
+    }
+    .shop__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .shop__content .shop__link {
+        font-size: 13px;
+        border-bottom: 1px solid #fff;
     }
 }
