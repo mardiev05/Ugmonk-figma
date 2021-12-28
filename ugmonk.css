@@ -619,8 +619,8 @@ footer {
 }
 
 .footer__link:hover {
-    border-bottom: 1px solid #1a1a1a;
-    color: #ccc;
+    /* border-bottom: 1px solid #1a1a1a; */
+    color: #700606;
 }
 
 .footer__text {
@@ -668,6 +668,7 @@ footer {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+    cursor: pointer;
     background: #fff;
     border-radius: 50%;
     box-shadow: inset 10px 10px 10px rgb(0 0 0 / 5%), 15px 25px 10px rgb(0 0 0 / 5%), 15px 20px 20px rgb(0 0 0 / 5%), inset -10px -10px 15px rgb(255 255 255 / 90%);
