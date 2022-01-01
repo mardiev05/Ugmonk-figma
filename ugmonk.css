@@ -309,7 +309,7 @@ i.fas.fa-bars.bar {
 }
 
 .analog__content {
-    width: 30%;
+    width: 40%;
     margin-top: 95px;
 }
 
@@ -478,10 +478,6 @@ img.for__img:hover {
     margin-top: 50px;
 }
 
-.for__card-img {
-    object-fit: none;
-}
-
 .card__main-link {
     font-weight: normal;
     font-size: 16px;
@@ -502,7 +498,7 @@ img.for__img:hover {
     align-items: center;
     background-image: url(images/story.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .story__content {
@@ -697,6 +693,38 @@ i.fab.fa-facebook-square {
 
 /* ==========================================================================media query======================================================================================== */
 
+@media screen and (max-width: 1250px) {
+    /* =====refillable===== */
+    .refillable {
+        padding: 110px 100px;
+    }
+    .refillable__content {
+        width: 33%;
+        padding: 0 55px;
+    }
+    .refillable__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .refillable__text {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 20px 0;
+    }
+    .refillable__link {
+        font-size: 14px;
+        line-height: 10px;
+    }
+    /* =====story===== */
+    .story__content {
+        width: 70%;
+    }
+    /* =====form===== */
+    .content {
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .navbar {
         padding: 10px 40px;
@@ -732,6 +760,91 @@ i.fab.fa-facebook-square {
     /* =====products===== */
     .products__links {
         width: 70%;
+    }
+    /* =====analog===== */
+    .analog {
+        height: 500px;
+        padding: 30px 60px;
+        margin-top: 110px;
+    }
+    .analog__number p {
+        font-size: 11px;
+        line-height: 20px;
+        width: 85px;
+        height: 85px;
+    }
+    .analog__content {
+        width: 42%;
+        margin-top: 95px;
+    }
+    .analog__title {
+        font-size: 31px;
+        line-height: 50px;
+    }
+    .analog__btn {
+        font-size: 14px;
+        line-height: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0px 25px;
+    }
+    .analog__link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* =====refillable===== */
+    .refillable {
+        padding: 105px 80px;
+    }
+    .refillable__content {
+        width: 33%;
+        padding: 0 50px;
+    }
+    .refillable__title {
+        font-size: 34px;
+        line-height: 39px;
+    }
+    .refillable__text {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 20px 0;
+    }
+    .refillable__link {
+        font-size: 13px;
+        line-height: 10px;
+    }
+    /* =====for===== */
+    .for {
+        margin-top: 80px;
+    }
+    .for__content {
+        width: 45%;
+        margin-bottom: 70px;
+    }
+    .for__title {
+        font-size: 20px;
+    }
+    /* =====story===== */
+    .story {
+        height: 560px;
+    }
+    .story__content {
+        width: 74%;
+    }
+    .story__title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    /* =====form===== */
+    .form {
+        height: 380px;
+    }
+    .content {
+        width: 35%;
+    }
+    /* =====footer===== */
+    footer {
+        padding: 60px 80px;
     }
 }
 
@@ -789,6 +902,123 @@ i.fab.fa-facebook-square {
         font-size: 17px;
         padding: 15px 50px;
         margin-top: 60px;
+    }
+    /* =====analog===== */
+    .analog {
+        height: 470px;
+        padding: 30px 55px;
+        margin-top: 110px;
+    }
+    .analog__number p {
+        font-size: 10px;
+        line-height: 18px;
+        width: 80px;
+        height: 80px;
+    }
+    .analog__content {
+        width: 52%;
+        margin-top: 70px;
+    }
+    .analog__title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .analog__btn {
+        font-size: 14px;
+        line-height: 39px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0px 20px;
+    }
+    .analog__link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* =====refillable===== */
+    .refillable {
+        padding: 95px 75px;
+    }
+    .refillable__content {
+        width: 33%;
+        padding: 0 35px;
+    }
+    .refillable__title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .refillable__text {
+        font-size: 13px;
+        line-height: 15px;
+        margin: 15px 0;
+    }
+    .refillable__link {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    /* =====for===== */
+    .for {
+        margin-top: 70px;
+    }
+    .for__content {
+        width: 50%;
+        margin-bottom: 60px;
+    }
+    .for__title {
+        font-size: 19px;
+    }
+    /* =====story===== */
+    .story {
+        height: 520px;
+    }
+    .story__content {
+        color: #fff;
+        text-align: center;
+        width: 80%;
+    }
+    .story__title {
+        font-size: 27px;
+        line-height: 40px;
+    }
+    /* =====form===== */
+    .form {
+        height: 350px;
+    }
+    .content {
+        width: 40%;
+    }
+    .form__title {
+        font-size: 33px;
+        line-height: 35px;
+    }
+    .form__text {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 20px 0 40px 0;
+    }
+    /* =====footer===== */
+    footer {
+        padding: 50px 40px;
+    }
+    .footer__2021 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .footer__all {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer__img {
+        margin-left: 15px;
+        width: 23%;
+    }
+    .icon {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .footer__icons i {
+        font-size: 23px;
+        padding-top: 6px;
     }
 }
 
@@ -848,6 +1078,123 @@ i.fab.fa-facebook-square {
         font-size: 16px;
         padding: 14px 50px;
         margin-top: 40px;
+    }
+    /* =====analog===== */
+    .analog {
+        height: 430px;
+        padding: 20px 30px;
+        margin-top: 60px;
+    }
+    .analog__number p {
+        font-size: 10px;
+        line-height: 16px;
+        width: 70px;
+        height: 70px;
+    }
+    .analog__content {
+        width: 52%;
+        margin-top: 70px;
+    }
+    .analog__title {
+        font-size: 25px;
+        line-height: 48px;
+    }
+    .analog__btn {
+        font-size: 13px;
+        line-height: 37px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0px 15px;
+    }
+    .analog__link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    /* =====refillable===== */
+    .refillable {
+        padding: 81px 50px;
+    }
+    .refillable__content {
+        width: 30%;
+        padding: 0px 20px;
+    }
+    .refillable__title {
+        font-size: 26px;
+        line-height: 25px;
+    }
+    .refillable__text {
+        font-size: 13px;
+        line-height: 13px;
+        margin: 15px 0;
+    }
+    .refillable__link {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    /* =====for===== */
+    .for {
+        margin-top: 60px;
+    }
+    .for__content {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    .for__title {
+        font-size: 16px;
+    }
+    /* =====story===== */
+    .story {
+        height: 470px;
+    }
+    .story__title {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    /* =====form===== */
+    .form {
+        height: 310px;
+    }
+    .content {
+        width: 50%;
+    }
+    .form__title {
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .form__text {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 15px 0 30px 0;
+    }
+    /* =====footer===== */
+    footer {
+        padding: 40px 30px;
+    }
+    .footer__link {
+        margin-bottom: 12px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .footer__2021 {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .footer__all {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .footer__img {
+        margin-left: 10px;
+        width: 22%;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+    .footer__icons i {
+        font-size: 21px;
+        padding-top: 5px;
     }
 }
 
